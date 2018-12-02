@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Header from "./Static/Header";
+//import Header from "./Static/Header";
 import Footer from "./Static/Footer";
 import Home from "./Static/Home";
 import Tasks from "./Components/Tasks";
@@ -14,15 +14,7 @@ import { Provider } from "react-redux";
 import store from "./Store/store";
 
 /* finish up front page */
-/*Add redux store */
-/* find a way to display the value of the clicked board in the AddAList */
-/*try: 
-<Link to={{ pathname: '/route', state: { foo: 'bar'} }}>My route</Link>
 
-//Then you can access the state object from within your component:
-const {foo} = props.location.state
-console.log(foo) // "bar"
-*/
 class App extends Component {
   render() {
     return (
